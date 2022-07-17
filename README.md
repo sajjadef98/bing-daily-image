@@ -1,10 +1,5 @@
 # bing-daily-image
 get bing daily image with php
-
-
-<img src="https://s25.picofile.com/file/8451604568/Capture_bing.jpg" alt="get bing daily image with php" width="823" height="445">
-<img src="https://s24.picofile.com/file/8451604450/Capture23.jpg" alt="get bing daily image with php" width="850" height="406">
-
 ```php
 <?php
 $url ='https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US';
@@ -25,3 +20,8 @@ $imgsrc ='https://www.bing.com'.$img->images[0]->url;
 </body>
 </html>
 ```
+
+
+<img src="https://s25.picofile.com/file/8451604568/Capture_bing.jpg" alt="get bing daily image with php" width="823" height="445">
+<img src="https://s24.picofile.com/file/8451604450/Capture23.jpg" alt="get bing daily image with php" width="850" height="406">
+
